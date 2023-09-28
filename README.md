@@ -12,5 +12,4 @@
 * Stored the added Todos in local storage, preserving records even when the page is refreshed.
 
   
-
-![Screenshot_2](https://github.com/irfanbariss/todos/assets/129832202/56be4b84-024e-4d38-a3f2-d6a00b454cd2)
+![Screenshot_2](https://github.com/irfanbariss/todos/assets/129832202/3045f75b-c566-4af5-93b3-0b46d1620184)
