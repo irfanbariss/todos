@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODOS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>Todos <img src="imgs/icon.png" alt="Cheklist Icon" /></h2>
+        <p>Herkesin bir Todo'su vardır</p>
+        <div class="row">
+          <input
+            type="text"
+            name="input-box"
+            id="input-box"
+            placeholder="Todo Ekle"
+          />
+          <button onclick="addTodo()">Ekle</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+    <div class="loader loader-active">
+      <!-- <img src="imgs/icon.png" /> -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
